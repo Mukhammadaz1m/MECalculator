@@ -1,0 +1,107 @@
+body {
+    font-size: 2.5vh;
+    background-color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.alohida{
+    color: black;
+    background-color: #e68a00;
+}
+
+.alohida:hover{
+    color: black;
+}
+
+#calculator {
+    width: 300px;
+    height: auto;
+    padding: 1.5vh 3vh;
+    border: 5px solid green;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.box {
+    text-align: right;
+    padding: 10px;
+    font-size: 38px;
+    border: 2px solid green;
+    color: green;
+    border-radius: 15px;
+}
+
+#last_operation_history {
+    height: 1.8vh;
+    font-size: 1.8vh;
+    text-align:right;
+    padding-right: 1.5vh;
+    color: black;
+    background-color: #fefefe;
+}
+
+button {
+    width:9vh;
+    height: 9vh;
+    font-weight: bold;
+    font-size: 3vh;
+    color: black    ;
+    background-color: #fefefe;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+#backspace_btn {
+    background-image: url("../assets/back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.7em;
+    background-color: #e68a00;
+}
+
+button:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #e68a00;
+}
+
+.operator:hover {
+    background-color: #ffd11a;
+}
+
+#equal_sign {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
